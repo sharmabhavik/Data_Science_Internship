@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Virtual environments in any subfolder
+**/venv/
+**/.venv/
+**/env/
+**/ENV/
+
+# VS Code and IDE settings
+**/.vscode/
+**/.idea/
+
+# Environment and secrets
+**/.env
+**/*.env
+**/secrets.yaml
+**/config.yaml
+
+# Logs and temp files
+**/*.log
+**/*.pid
+**/*.out
+
+# OS-specific junk
+**/.DS_Store
+**/Thumbs.db
+
+# Python packaging
+**/*.egg-info/
+**/dist/
+**/build/
+
+# Model artifacts
+**/*.pkl
+**/*.joblib
+**/*.h5
+**/*.sav
+
+# Testing and coverage
+**/.pytest_cache/
+**/.coverage
+
+# SQLite and DB files
+**/*.sqlite3
+**/*.db
+
+# Miscellaneous (e.g. local notes, auto imports)
+**/auto_imports*
+**/*.docx
+**/*.txt
