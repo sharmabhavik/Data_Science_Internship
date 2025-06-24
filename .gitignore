@@ -1,56 +1,85 @@
-# Byte-compiled / optimized / DLL files
-**/__pycache__/
-**/*.py[cod]
-**/*$py.class
+# ========================
+# Python Bytecode
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Jupyter notebook checkpoints
-**/.ipynb_checkpoints/
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
 
-# Virtual environments in any subfolder
-**/venv/
-**/.venv/
-**/env/
-**/ENV/
+# ========================
+# Virtual Environments
+# ========================
+venv/
+.venv/
+env/
+ENV/
 
-# VS Code and IDE settings
-**/.vscode/
-**/.idea/
+# ========================
+# IDE / Editor Settings
+# ========================
+.vscode/
+.idea/
 
-# Environment and secrets
-**/.env
-**/*.env
-**/secrets.yaml
-**/config.yaml
+# ========================
+# Environment Variables & Configs
+# ========================
+.env
+*.env
+secrets.yaml
+config.yaml
 
-# Logs and temp files
-**/*.log
-**/*.pid
-**/*.out
+# ========================
+# Logs & Temporary Files
+# ========================
+*.log
+*.pid
+*.out
 
-# OS-specific junk
-**/.DS_Store
-**/Thumbs.db
+# ========================
+# OS-generated files
+# ========================
+.DS_Store
+Thumbs.db
 
-# Python packaging
-**/*.egg-info/
-**/dist/
-**/build/
+# ========================
+# Python Packaging
+# ========================
+*.egg-info/
+dist/
+build/
 
-# Model artifacts
-**/*.pkl
-**/*.joblib
-**/*.h5
-**/*.sav
+# ========================
+# Model Artifacts
+# ========================
+*.pkl
+*.joblib
+*.h5
+*.sav
 
-# Testing and coverage
-**/.pytest_cache/
-**/.coverage
+# ========================
+# Testing & Coverage
+# ========================
+.pytest_cache/
+.coverage
 
-# SQLite and DB files
-**/*.sqlite3
-**/*.db
+# ========================
+# Databases
+# ========================
+*.sqlite3
+*.db
 
-# Miscellaneous (e.g. local notes, auto imports)
-**/auto_imports*
-**/*.docx
-**/*.txt
+# ========================
+# Miscellaneous
+# ========================
+auto_imports*
+*.docx
+*.txt
+
+# ========================
+# Large Dataset Files (Handled Manually or via LFS)
+# ========================
+Insurance_Claim_Prediction/train.csv
